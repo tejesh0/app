@@ -230,7 +230,8 @@ angular.module('bucketList.controllers', [])
 
 .controller('profileCtrl', ['$scope', '$rootScope', '$firebaseAuth', '$window',
     function($scope, $rootScope, $firebaseAuth, $window) {
-     $scope.testdata = "testdata working"
+     $scope.testdata = $rootScope.auth
+
 
 
     $scope.profilefunc = function(){
