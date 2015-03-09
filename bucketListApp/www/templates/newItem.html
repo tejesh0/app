@@ -5,6 +5,14 @@
       <button class="button button-positive" ng-click="createNew()">Done</button>
    </header>
    <ion-content class="padding has-header">
-      <input type="date"  ng-model="data.item">
+   <div class="card">
+  <div class="item item-text-wrap">
+  	Enter date
+    <input type="date"  ng-model="data.date">
+    Enter time
+    <input type="time" ng-model="data.time">
+  </div>
+</div>
+      
    </ion-content>
 </div>

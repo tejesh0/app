@@ -107,7 +107,10 @@ angular.module('bucketList.controllers', [])
         $scope.newTemplate = modal;
     });
 
-    $scope.newTask = function() {
+    $scope.assignPass = function() {
+        $scope.newTemplate.show();
+    };
+     $scope.requestPass = function() {
         $scope.newTemplate.show();
     };
 
@@ -143,8 +146,14 @@ angular.module('bucketList.controllers', [])
 })
 
 .controller('newCtrl', function($rootScope, $scope, $window, $firebase) {
+
+
+    
+
     $scope.data = {
-        item: ""
+        item: "",
+        date: "",
+        time:"",
     };
 
     $scope.close = function() {
@@ -152,16 +161,20 @@ angular.module('bucketList.controllers', [])
     };
 
     $scope.createNew = function() {
-        var item = this.data.item;
-        if (!item) return;
+        var date = this.data.date;
+        if (!date) return;
         $scope.modal.hide();
         $rootScope.show();
 
         $rootScope.show("Please wait... Creating new");
 
         var form = {
-            item: item,
-            isCompleted: false,
+            item: date,
+            isArchived: false,
+            isActive: true,
+            guestId: 'tejeshpapineni95@gmail.com',
+
+
             created: Date.now(),
             updated: Date.now()
         };

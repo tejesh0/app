@@ -42,6 +42,8 @@
 		82799D2D19484985BE712EDA /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AC3748656E41E4A22F03A3 /* UIWebViewExtension.m */; };
 		682224AC685840F3B64D0518 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF5557A03CD4ADA84814E14 /* CDVLogger.m */; };
 		BA9F897BF2DD4AA094FD9109 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A861EBAD57184733BC08317C /* CDVDevice.m */; };
+		2B0B49C372324F779B941D00 /* DatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1033A1AF444044BEB350DD /* DatePicker.m */; };
+		A54B6AEF3CC6454DBB1C36DC /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3C2BB8B94147949A30009F /* DatePicker.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +116,9 @@
 		FBA1962FD3AE4380850628D9 /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "org.apache.cordova.console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		A861EBAD57184733BC08317C /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "org.apache.cordova.device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		60269B70D1D74E93A5EBC7C1 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		2F1033A1AF444044BEB350DD /* DatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DatePicker.m"; path = "com.plugin.datepicker/DatePicker.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		8C2119805E134F5B905B220C /* DatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DatePicker.h"; path = "com.plugin.datepicker/DatePicker.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		CF3C2BB8B94147949A30009F /* DatePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "DatePicker.xib"; path = "DatePicker.xib"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +212,7 @@
 				308D052D1370CCF300D202BF /* icons */,
 				308D05311370CCF300D202BF /* splash */,
 				8D1107310486CEB800E47090 /* BucketList App-Info.plist */,
+				CF3C2BB8B94147949A30009F /* DatePicker.xib */,
 			);
 			name = Resources;
 			path = "BucketList App/Resources";
@@ -242,6 +248,8 @@
 				FBA1962FD3AE4380850628D9 /* CDVLogger.h */,
 				A861EBAD57184733BC08317C /* CDVDevice.m */,
 				60269B70D1D74E93A5EBC7C1 /* CDVDevice.h */,
+				2F1033A1AF444044BEB350DD /* DatePicker.m */,
+				8C2119805E134F5B905B220C /* DatePicker.h */,
 			);
 			name = Plugins;
 			path = "BucketList App/Plugins";
@@ -405,6 +413,7 @@
 				7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */,
 				7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */,
 				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
+				A54B6AEF3CC6454DBB1C36DC /* DatePicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +449,7 @@
 				82799D2D19484985BE712EDA /* UIWebViewExtension.m in Sources */,
 				682224AC685840F3B64D0518 /* CDVLogger.m in Sources */,
 				BA9F897BF2DD4AA094FD9109 /* CDVDevice.m in Sources */,
+				2B0B49C372324F779B941D00 /* DatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
