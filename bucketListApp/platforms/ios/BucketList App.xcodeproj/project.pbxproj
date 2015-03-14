@@ -44,6 +44,10 @@
 		BA9F897BF2DD4AA094FD9109 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A861EBAD57184733BC08317C /* CDVDevice.m */; };
 		2B0B49C372324F779B941D00 /* DatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1033A1AF444044BEB350DD /* DatePicker.m */; };
 		A54B6AEF3CC6454DBB1C36DC /* DatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3C2BB8B94147949A30009F /* DatePicker.xib */; };
+		66858723D03C4CF9969C0934 /* CDVContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C769B2342D4EDB8407BB69 /* CDVContacts.m */; };
+		01ADEED9B4BF4C2791F16DC1 /* CDVContact.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E7C55D8A5944ACB28BADCB /* CDVContact.m */; };
+		6A2383475BBC419192FB66E5 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1E8D69568C4E078BA28229 /* AddressBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0F86FAD4F8D64D3DA267B11D /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2937D8055762463DAEF01466 /* AddressBookUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +123,12 @@
 		2F1033A1AF444044BEB350DD /* DatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DatePicker.m"; path = "com.plugin.datepicker/DatePicker.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		8C2119805E134F5B905B220C /* DatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DatePicker.h"; path = "com.plugin.datepicker/DatePicker.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		CF3C2BB8B94147949A30009F /* DatePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "DatePicker.xib"; path = "DatePicker.xib"; sourceTree = "<group>"; fileEncoding = 4; };
+		A1C769B2342D4EDB8407BB69 /* CDVContacts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVContacts.m"; path = "org.apache.cordova.contacts/CDVContacts.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C0E7C55D8A5944ACB28BADCB /* CDVContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVContact.m"; path = "org.apache.cordova.contacts/CDVContact.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		DFED9F33308347EBB633B022 /* CDVContacts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVContacts.h"; path = "org.apache.cordova.contacts/CDVContacts.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		563194C785A04382ADABBD96 /* CDVContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVContact.h"; path = "org.apache.cordova.contacts/CDVContact.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		DE1E8D69568C4E078BA28229 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		2937D8055762463DAEF01466 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AddressBookUI.framework"; path = "System/Library/Frameworks/AddressBookUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +141,8 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
+				6A2383475BBC419192FB66E5 /* AddressBook.framework in Frameworks */,
+				0F86FAD4F8D64D3DA267B11D /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +237,8 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				DE1E8D69568C4E078BA28229 /* AddressBook.framework */,
+				2937D8055762463DAEF01466 /* AddressBookUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -250,6 +264,10 @@
 				60269B70D1D74E93A5EBC7C1 /* CDVDevice.h */,
 				2F1033A1AF444044BEB350DD /* DatePicker.m */,
 				8C2119805E134F5B905B220C /* DatePicker.h */,
+				A1C769B2342D4EDB8407BB69 /* CDVContacts.m */,
+				C0E7C55D8A5944ACB28BADCB /* CDVContact.m */,
+				DFED9F33308347EBB633B022 /* CDVContacts.h */,
+				563194C785A04382ADABBD96 /* CDVContact.h */,
 			);
 			name = Plugins;
 			path = "BucketList App/Plugins";
@@ -450,6 +468,8 @@
 				682224AC685840F3B64D0518 /* CDVLogger.m in Sources */,
 				BA9F897BF2DD4AA094FD9109 /* CDVDevice.m in Sources */,
 				2B0B49C372324F779B941D00 /* DatePicker.m in Sources */,
+				66858723D03C4CF9969C0934 /* CDVContacts.m in Sources */,
+				01ADEED9B4BF4C2791F16DC1 /* CDVContact.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

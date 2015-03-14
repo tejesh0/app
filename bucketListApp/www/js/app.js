@@ -10,6 +10,10 @@ angular.module('bucketList', ['ionic', 'firebase', 'bucketList.controllers'])
         if (window.StatusBar) {
             StatusBar.styleDefault();
         }
+        
+        // var myContact = navigator.contacts.create({"displayName": "Test User"});
+        // myContact.note = "This contact has a note.";
+        // console.log("The contact, " + myContact.displayName + ", note: " + myContact.note);
 
         $rootScope.userEmail = null;
         $rootScope.baseUrl = 'https://crackling-fire-8021.firebaseio.com/';

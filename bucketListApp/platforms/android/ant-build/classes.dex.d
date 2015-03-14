@@ -18,5 +18,14 @@
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/ionicfire/bucketlist/BuildConfig.class \
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/ionicfire/bucketlist/R$attr.class \
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/ionicfire/bucketlist/R.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager$3.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager$4.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactAccessorSdk5.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager$1.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager$2.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactManager.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactAccessor$WhereOptions.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactAccessor.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/org/apache/cordova/contacts/ContactInfoDTO.class \
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/dexedLibs/classes-ce5137c0590568658dd4d968859efaa8.jar \

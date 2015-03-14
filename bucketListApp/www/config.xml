@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.ionicfire.bucketlist" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>BucketList App</name>
+    <name>SApp</name>
     <description>
         An Awesome App
     </description>
-    <author email="hi@bucketlist.com" href="http://bucketlist.com/">
-      Arvind Ravulavaru
+    <author email="tejeshpapinei95@gmail.com" href="http://frozennote.com/">
+    tejesh
     </author>
     <content src="index.html" />
     <access origin="*" />

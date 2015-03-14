@@ -11,12 +11,15 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-    <name>BucketList App</name>
+    <feature name="Contacts">
+        <param name="android-package" value="org.apache.cordova.contacts.ContactManager" />
+    </feature>
+    <name>SApp</name>
     <description>
         An Awesome App
     </description>
-    <author email="hi@bucketlist.com" href="http://bucketlist.com/">
-      Arvind Ravulavaru
+    <author email="tejeshpapinei95@gmail.com" href="http://frozennote.com/">
+    tejesh
     </author>
     <content src="index.html" />
     <access origin="*" />

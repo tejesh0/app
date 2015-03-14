@@ -291,6 +291,7 @@ angular.module('bucketList.controllers', [])
         var pickContact = function() {
 
             var deferred = $q.defer();
+            // var myContact = navigator.contacts.create({"displayName": "Test User"});
 
             if(navigator && navigator.contacts) {
 
