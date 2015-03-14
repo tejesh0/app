@@ -1,0 +1,22 @@
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes.dex : \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/ionic/keyboard/IonicKeyboard$1.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/plugin/datepicker/DatePickerPlugin$2$2.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/plugin/datepicker/DatePickerPlugin$1$1.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/plugin/datepicker/DatePickerPlugin$DateSetListener.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/plugin/datepicker/DatePickerPlugin$2.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/plugin/datepicker/DatePickerPlugin$2$3.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/plugin/datepicker/DatePickerPlugin$TimeSetListener.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/plugin/datepicker/DatePickerPlugin$2$1.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/plugin/datepicker/DatePickerPlugin.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/plugin/datepicker/DatePickerPlugin$1$2.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/plugin/datepicker/DatePickerPlugin$1.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/ionicfire/bucketlist/CordovaApp.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/ionicfire/bucketlist/R$drawable.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/ionicfire/bucketlist/R$xml.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/ionicfire/bucketlist/R$string.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/ionicfire/bucketlist/BuildConfig.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/ionicfire/bucketlist/R$attr.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/com/ionicfire/bucketlist/R.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/dexedLibs/classes-ce5137c0590568658dd4d968859efaa8.jar \
