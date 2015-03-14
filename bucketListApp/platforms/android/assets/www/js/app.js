@@ -110,6 +110,15 @@ angular.module('bucketList', ['ionic', 'firebase', 'bucketList.controllers'])
                 }
             }
         })
+         .state('bucket.active', {
+            url: '/active',
+            views: {
+                'active-passes': {
+                    templateUrl: 'templates/active-passes.html',
+                    controller: 'completedCtrl'
+                }
+            }
+        })
         .state('profile', {
             url: '/profile',
             controller: 'profileCtrl',

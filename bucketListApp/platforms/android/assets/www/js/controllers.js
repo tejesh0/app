@@ -236,7 +236,8 @@ angular.module('bucketList.controllers', [])
 
 .controller('profileCtrl', ['$scope', '$rootScope', '$firebaseAuth', '$window',
     function($scope, $rootScope, $firebaseAuth, $window) {
-     $scope.testdata = "testdata working"
+     $scope.testdata = $rootScope.auth
+
 
 
     $scope.profilefunc = function(){
@@ -274,6 +275,43 @@ angular.module('bucketList.controllers', [])
 
 
     }])
+    .service("ContactsService", ['$q', function($q) {
+
+        var formatContact = function(contact) {
+
+            return {
+                "displayName"   : contact.name.formatted || contact.name.givenName + " " + contact.name.familyName || "Mystery Person",
+                "emails"        : contact.emails || [],
+                "phones"        : contact.phoneNumbers || [],
+                "photos"        : contact.photos || []
+            };
+
+        };
+
+        var pickContact = function() {
+
+            var deferred = $q.defer();
+
+            if(navigator && navigator.contacts) {
+
+                navigator.contacts.pickContact(function(contact){
+
+                    deferred.resolve( formatContact(contact) );
+                });
+
+            } else {
+                deferred.reject("Bummer.  No contacts in desktop browser");
+            }
+
+            return deferred.promise;
+        };
+
+        return {
+            pickContact : pickContact
+        };
+    }])
+
+    
 
 function escapeEmailAddress(email) {
     if (!email) return false

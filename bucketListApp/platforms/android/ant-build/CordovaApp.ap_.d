@@ -87,10 +87,13 @@
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/assets/www/templates/bucket-completed.html \
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/assets/www/templates/bucket-list.html \
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/assets/www/templates/profile.html \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/assets/www/templates/active-passes.html \
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/assets/www/templates/bucket.html \
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/assets/www/templates/contacts.html \
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/assets/www/templates/auth-signin.html \
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/assets/www/templates/auth-signup.html \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/assets/www/img/avatar.jpg \
+/home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/assets/www/img/avatar2.jpg \
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/assets/www/img/ionic.png \
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/assets/www/css/style.css \
 /home/t/ionic-app/myIonicFireApp/dev/bucketListApp/platforms/android/ant-build/AndroidManifest.xml \

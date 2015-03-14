@@ -1,0 +1,38 @@
+<ion-header-bar class="bar-positive" ng-controller="profileCtrl">
+   <button class="button button-clear" ng-click="profilefunc()">Profile</button>
+   <h1 class="title">Active Passes</h1>
+   <button class="button button-clear" ng-click="logout()">Logout</button>
+</ion-header-bar>
+<ion-content class="has-header padding" has-tabs="true" on-refresh="onRefresh()">
+	
+   <div class="card" >
+      <div class="item item-text-wrap">
+    
+    
+         <span>
+          Assigned a pass to Srinivas dated on 28-03-2015 
+         </span>
+         <br/>  <br/>
+         <p class="actions padding">
+            <!-- <i class="ion-checkmark icon-actions margin" ng-click="">accept</i> -->
+            <i class="ion-trash-b  icon-actions margin" ng-click="">cancel</i>
+            
+         </p>
+      </div>
+   </div>
+    <div class="card" >
+      <div class="item item-text-wrap">
+    
+    
+         <span>
+         Assigned a pass to Ravi dated on 28-03-2015 
+         </span>
+         <br/>  <br/>
+         <p class="actions padding">
+            <!-- <i class="ion-checkmark icon-actions margin" ng-click="">accept</i> -->
+            <i class="ion-trash-b  icon-actions margin" ng-click="">cancel</i>
+            
+         </p>
+      </div>
+   </div>
+</ion-content>

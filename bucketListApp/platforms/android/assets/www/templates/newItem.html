@@ -5,18 +5,21 @@
       <button class="button button-positive" ng-click="createNew()">Done</button>
    </header>
    <ion-content class="padding has-header">
-   <div class="card">
-  <div class="item item-text-wrap">
-  	Enter date
-    <input type="date"  ng-model="data.date">
-    Enter time
-    <input type="time" ng-model="data.time">
-  </div>
-    
+
+      <div class="card">
+        <div class="item item-text-wrap">
+        	Enter date
+          <input type="date"  ng-model="data.date">
+          Enter time
+          <input type="time" ng-model="data.time">
+        </div>
+      </div>
+
+      <div ng-controller="contactCtrl">
+
         <button class="button" ng-click="pickContact()">Contacts</button>
         <h1 class="title">Pick Contacts</h1>
-    
-    <ion-content>
+      
         <div class="list">
 
             <a class="item item-thumbnail-left" ng-repeat="contact in data.selectedContacts">
@@ -29,12 +32,12 @@
             </a>
 
         </div>
-       
-    </ion-content>
 
-  <div>
-    
-</div>
+      </div>
+               
+         
+        
+    </div>
       
    </ion-content>
 </div>
